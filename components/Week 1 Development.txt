@@ -1,0 +1,4 @@
+Week 1: Development
+
+GitHub Link: https://github.com/blnovak/Novak_Brandy_Portfolio.git
+Using SourceTree.
