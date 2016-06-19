@@ -1,0 +1,92 @@
+<html>
+
+<body>
+
+
+<h1>Welcome to the Hangman Trivia Game!</h1>
+
+
+
+function triviaLoop() {
+
+	var choice = prompt("Please make a selection:", "Numeric Selection");
+
+	document.write("1. Play Game");
+
+	document.write("2. Exit");
+
+
+	do
+
+	{
+
+		switch(choice)
+
+		{
+
+			case "1":
+
+				document.write("You have chosen to play the game!" = "<br>");
+
+				document.write("What is the food substance made by buzzing bees from nectar?" + "<br>");
+
+				var selection = prompt("Please enter the answer:");
+
+				
+
+				if (selection != "honey")
+
+				{
+
+					document.write("I'm sorry, that is not the correct answer.");
+					var answer = prompt("Would you like to guess again?");
+					if (answer == "yes")
+					{
+						var secondSelection = prompt("Please enter your second guess: ");
+						if (secondSelection != "honey")
+						{
+							document.write("I'm sorry, that is not the correct answer.");
+							var thirdSelection = prompt("Would you like to guess again?");
+							var thirdSelection = prompt("Please enter the answer:");
+							if (
+						}else{
+							document.write("Congratulations you solved the puzzle!");
+						}
+					}
+
+				}else{
+
+					document.write("Congratulations you solved the puzzle!");
+
+				}
+
+				break;
+
+			case “2”:
+
+				document.write(“You have chosen not to play! Goodbye!”);
+
+				break;
+
+			default:
+
+				document.write(“You have made an invalid option! Please make a valid selection!”);’				break;
+
+		}
+
+
+	} while (choice != “0”)
+
+}
+
+
+<script>
+
+
+</script>
+
+
+
+</body>
+
+</html>
